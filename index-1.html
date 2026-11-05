@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Shaik Tasneem Kouser, Computer Science graduate.">
+  <title>Shaik Tasneem Kouser | Portfolio</title>
+  <style>
+    :root{--bg:#f7f8fc;--ink:#172033;--muted:#5d687d;--accent:#6254d9;--card:#fff;--line:#e7e9f2}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1060px,92%);margin:auto}
+    header{position:sticky;top:0;background:rgba(247,248,252,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);z-index:5}
+    nav{height:68px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:800;letter-spacing:.2px}
+    nav ul{display:flex;gap:22px;list-style:none;padding:0;margin:0;font-size:.92rem;color:var(--muted)}
+    nav a:hover,.link:hover{color:var(--accent)}
+    .hero{padding:94px 0 78px;display:grid;grid-template-columns:1.5fr .8fr;gap:42px;align-items:center}
+    .eyebrow{color:var(--accent);font-weight:750;text-transform:uppercase;letter-spacing:2px;font-size:.78rem}
+    h1{font-size:clamp(2.5rem,6vw,4.6rem);line-height:1.08;letter-spacing:-2px;margin:14px 0}
+    .hero p{font-size:1.12rem;color:var(--muted);max-width:650px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+    .btn{padding:11px 18px;border-radius:10px;background:var(--accent);color:white;font-weight:700;display:inline-block}
+    .btn.secondary{background:white;color:var(--ink);border:1px solid var(--line)}
+    .profile-card{background:linear-gradient(145deg,#e9e7ff,#fff);border:1px solid #dedaff;border-radius:24px;padding:30px;text-align:center}
+    .avatar{width:112px;height:112px;border-radius:50%;margin:0 auto 16px;background:#6254d9;color:white;display:grid;place-items:center;font-size:2rem;font-weight:800}
+    .profile-card p{font-size:.95rem;margin:5px 0;color:var(--muted)}
+    section{padding:54px 0}.section-title{font-size:1.9rem;letter-spacing:-.6px;margin:0 0 8px}
+    .section-intro{color:var(--muted);margin:0 0 26px}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:23px;box-shadow:0 8px 28px rgba(25,35,70,.035)}
+    .card h3{margin:0 0 8px;font-size:1.12rem}.card p{margin:7px 0;color:var(--muted)}
+    .meta{font-size:.86rem;color:var(--accent);font-weight:700}
+    .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+    .tag{font-size:.82rem;background:#f0efff;color:#5144c2;border-radius:999px;padding:5px 10px}
+    .timeline{border-left:2px solid #dcd8ff;margin-left:8px;padding-left:24px}
+    .timeline .card{margin-bottom:16px;position:relative}.timeline .card:before{content:"";position:absolute;left:-32px;top:25px;width:12px;height:12px;background:var(--accent);border:3px solid var(--bg);border-radius:50%}
+    .contact{background:#1d2340;color:white;border-radius:22px;padding:34px}.contact p{color:#d6d9e8}
+    .contact a{color:#c6c0ff;text-decoration:underline;text-underline-offset:4px}
+    footer{text-align:center;padding:28px 0;color:var(--muted);font-size:.88rem}
+    @media(max-width:720px){nav ul{gap:12px;font-size:.8rem}.hero{grid-template-columns:1fr;padding:65px 0 45px}.profile-card{max-width:360px}.grid{grid-template-columns:1fr}section{padding:38px 0}h1{letter-spacing:-1px}}
+    @media(max-width:440px){nav{height:auto;padding:14px 0;align-items:flex-start;gap:12px;flex-direction:column}nav ul{flex-wrap:wrap}}
+  </style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+  <a class="brand" href="#home">STK<span style="color:#6254d9">.</span></a>
+  <ul><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li><li><a href="#experience">Experience</a></li><li><a href="#contact">Contact</a></li></ul>
+</nav></div></header>
+<main>
+  <div class="wrap hero" id="home">
+    <div>
+      <div class="eyebrow">Computer Science Graduate · 2024</div>
+      <h1>Hi, I'm<br>Shaik Tasneem Kouser.</h1>
+      <p>I’m an enthusiastic Computer Science graduate interested in technology, web development, networking and cybersecurity. I enjoy learning new tools, solving problems and building practical skills.</p>
+      <div class="actions"><a class="btn" href="#projects">Explore my work</a><a class="btn secondary" href="#contact">Get in touch</a></div>
+    </div>
+    <aside class="profile-card">
+      <div class="avatar">STK</div>
+      <h2 style="margin:0">Shaik Tasneem Kouser</h2>
+      <p>B.Tech, Computer Science & Engineering</p>
+      <p>Adikavi Nannaya University</p>
+      <p>Rajahmundry, Andhra Pradesh</p>
+    </aside>
+  </div>
+
+  <section id="about"><div class="wrap">
+    <h2 class="section-title">About me</h2>
+    <p class="section-intro">A little about my background and interests.</p>
+    <div class="card"><p>I completed my B.Tech in Computer Science and Engineering in 2024. I have practical exposure to web development through an internship and experience in healthcare service delivery operations. I’m especially interested in cybersecurity and networking, and I’m continuing to strengthen my technical fundamentals. I’m a sincere learner who values accuracy, teamwork and continuous improvement.</p></div>
+  </div></section>
+
+  <section id="skills"><div class="wrap">
+    <h2 class="section-title">Skills & learning</h2>
+    <p class="section-intro">Tools and technologies I have worked with or studied.</p>
+    <div class="card">
+      <div class="tags">
+        <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Bootstrap</span><span class="tag">PHP</span><span class="tag">SQL</span><span class="tag">Java</span><span class="tag">Linux fundamentals</span><span class="tag">Networking fundamentals</span><span class="tag">Wireshark</span><span class="tag">Nmap</span><span class="tag">AWS fundamentals</span><span class="tag">MS Office</span><span class="tag">VGG16 / CNN concepts</span>
+      </div>
+      <p style="margin-top:18px"><strong>Areas of interest:</strong> Cybersecurity, network security, IT support and web development.</p>
+    </div>
+  </div></section>
+
+  <section id="projects"><div class="wrap">
+    <h2 class="section-title">Projects</h2>
+    <p class="section-intro">Academic and internship work.</p>
+    <div class="grid">
+      <article class="card">
+        <div class="meta">ACADEMIC PROJECT</div>
+        <h3>Plant Disease Detection using CNN with VGG16</h3>
+        <p>Developed an image-based plant leaf classification project using VGG16 transfer learning. The workflow included image preprocessing, data augmentation, model training and evaluation, with a simple interface to upload a leaf image and view the prediction.</p>
+        <div class="tags"><span class="tag">Python</span><span class="tag">CNN</span><span class="tag">VGG16</span><span class="tag">Image classification</span></div>
+      </article>
+      <article class="card">
+        <div class="meta">INTERNSHIP PROJECT</div>
+        <h3>Mera Sahai – Internship Management Module</h3>
+        <p>Worked on registration and login forms for students and recruiters, including storing registration details in an SQL database. The platform supported internship and job-related activities.</p>
+        <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Bootstrap</span><span class="tag">PHP</span><span class="tag">SQL</span></div>
+      </article>
+    </div>
+  </div></section>
+
+  <section id="experience"><div class="wrap">
+    <h2 class="section-title">Experience</h2>
+    <p class="section-intro">Professional and internship experience.</p>
+    <div class="timeline">
+      <article class="card">
+        <div class="meta">SUTHERLAND · HEALTHCARE OPERATIONS</div>
+        <h3>Associate – Functional, Service Delivery Operations</h3>
+        <p>Worked with healthcare claims and rejection-related processes. Reviewed claim objections against policy coverage and time-period details, helped distinguish valid and incorrect rejections, and supported reconsideration or escalation with relevant reasons and documentation.</p>
+        <p>Gained introductory exposure to medical coding concepts through the healthcare domain.</p>
+      </article>
+      <article class="card">
+        <div class="meta">VINUKOTI BUSINESS SOLUTIONS · APRIL–JUNE 2023</div>
+        <h3>Web Development Intern</h3>
+        <p>Contributed to the Mera Sahai platform by developing student and recruiter registration/login interfaces and connecting form data to an SQL database.</p>
+      </article>
+      <article class="card">
+        <div class="meta">VIRTUAL JOB SIMULATIONS</div>
+        <h3>Cybersecurity exposure – Mastercard & Deloitte</h3>
+        <p>Completed virtual job-simulation activities involving phishing awareness, log analysis and identifying suspicious activity.</p>
+      </article>
+    </div>
+  </div></section>
+
+  <section id="education"><div class="wrap">
+    <h2 class="section-title">Education</h2>
+    <div class="card">
+      <h3>B.Tech – Computer Science and Engineering</h3>
+      <p>Adikavi Nannaya University, Rajahmundry · 2024</p>
+      <p><strong>CGPA:</strong> 8.2 / 10</p>
+    </div>
+  </div></section>
+
+  <section id="contact"><div class="wrap">
+    <div class="contact">
+      <div class="eyebrow" style="color:#c6c0ff">Let's connect</div>
+      <h2 class="section-title" style="color:white">Open to learning and new opportunities.</h2>
+      <p>If you’d like to discuss an entry-level opportunity in IT, cybersecurity, networking or web development, feel free to connect.</p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/shaik-tasneem-kouser-536786290/" target="_blank" rel="noopener">linkedin.com/in/shaik-tasneem-kouser-536786290</a></p>
+      <p><strong>Email:</strong> <a href="mailto:tasneemshaik2111@gmail.com">tasneemshaik2111@gmail.com</a></p>
+    </div>
+  </div></section>
+</main>
+<footer>© 2026 Shaik Tasneem Kouser · Personal Portfolio</footer>
+</body>
+</html>
